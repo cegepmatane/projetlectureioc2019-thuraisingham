@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+>
+
+	<bean id="listeArticlesUne" class="ListeArticle">
+            <property name="listeArticles" ref="listeArticlesPreparee"/>
+    </bean>
+    
+    <bean id="listeArticlesPreparee" class="org.springframework.beans.factory.config.ListFactoryBean">    
+            <property name="sourceList">
+                <list>
+                	<bean id="carte_Mere" class="Articles">
+						<property name="nom" value="Asus"/>
+						<property name="type" value="carteMere"/>
+						<property name="annéeSortie" value="2009"/>
+					</bean>
+					
+                	<bean id="gpu" class="Articles">
+						<property name="nom" value="Nvidia"/>
+						<property name="type" value="gpu"/>
+						<property name="annéeSortie" value="2018"/>
+					</bean>
+					
+                	<bean id="cpu" class="Articles">
+						<property name="nom" value="Amd"/>
+						<property name="type" value="cpu"/>
+						<property name="annéeSortie" value="2001"/>
+					</bean>
+                </list>
+            </property>
+     </bean>
+</beans>
