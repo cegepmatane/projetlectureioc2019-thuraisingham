@@ -11,11 +11,8 @@ public class ListeVendeur
 		
 		public NoeudVendeur(String nomVendeur)
 		{
-			//this.vendeur = nomVendeur;
 			this.suivant = null;
 		}
-		
-
 	}
 	
 	public ListeVendeur()

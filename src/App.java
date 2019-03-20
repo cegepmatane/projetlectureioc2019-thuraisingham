@@ -18,7 +18,7 @@ public class App {
 		
 		
 		//VueVendeur.launch(VueVendeur.class, args);
-		//VueMateriel.launch(VueMateriel.class, args);
+		VueMateriel.launch(VueMateriel.class, args);
 	}
 	
 }

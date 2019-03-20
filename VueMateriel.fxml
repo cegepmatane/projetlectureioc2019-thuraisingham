@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Text layoutX="111.0" layoutY="46.0" scaleX="4.143539837012422" scaleY="2.603915810083211" strokeType="OUTSIDE" strokeWidth="0.0" text="Materiel :" />
+    <CheckBox layoutX="40.0" layoutY="97.0" mnemonicParsing="false" text="Carte Mere" />
+    <CheckBox layoutX="40.0" layoutY="139.0" mnemonicParsing="false" text="GPU" />
+    <CheckBox layoutX="40.0" layoutY="180.0" mnemonicParsing="false" text="CPU" />
+  </children>
+</AnchorPane>

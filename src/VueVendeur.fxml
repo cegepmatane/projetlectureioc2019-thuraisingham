@@ -7,21 +7,21 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
   <children>
+<Button fx:id="BoutonMateriel" layoutX="263.0" layoutY="389.0" mnemonicParsing="false" text="Materiel" />
     <TabPane id="menu-vendeur" layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="572.0" tabClosingPolicy="UNAVAILABLE">
       <tabs>
-        <Tab id="OngletUn" fx:id="OngletUn" text="Processeur">
+        <Tab id="OngletUn" fx:id="OngletUn" text="CarteMere">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>
-                <Button fx:id="BoutonMateriel" layoutX="251.0" layoutY="291.0" mnemonicParsing="false" text="Materiel" />
                 <TextArea fx:id="vendeurtexte1" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="277.0" prefWidth="544.0" wrapText="true" />
               </children>
             </AnchorPane>
           </content>
         </Tab>
-        <Tab id="OngletDeux" fx:id="OngletDeux" text="CarteGraphique">
+        <Tab id="OngletDeux" fx:id="OngletDeux" text="GPU">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>
@@ -30,7 +30,7 @@
             </AnchorPane>
           </content>
         </Tab>
-        <Tab id="OngletTrois" fx:id="OngletTrois" text="CarteMère">
+        <Tab id="OngletTrois" fx:id="OngletTrois" text="CPU">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>

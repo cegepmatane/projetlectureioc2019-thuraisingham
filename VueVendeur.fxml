@@ -11,7 +11,7 @@
   <children>
     <TabPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
       <tabs>
-        <Tab text="Processeur">
+        <Tab text="CarteMere">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                      <children>
@@ -22,7 +22,7 @@
             </AnchorPane>
           </content>
         </Tab>
-        <Tab text="CarteGraphique">
+        <Tab text="GPU">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>
@@ -33,7 +33,7 @@
             </AnchorPane>
           </content>
         </Tab>
-        <Tab text="CarteMére">
+        <Tab text="CPU">
           <content>
             <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
               <children>
